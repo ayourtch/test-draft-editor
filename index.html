@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IETF Draft Editor</title>
+    
+<script type="module">
+import init, * as bindings from './editor-web-50cccb4e9f8a2730.js';
+const wasm = await init({ module_or_path: './editor-web-dcb4f0fc0186a755_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <!-- Render pipeline (step 0009): the worker module and the vendored Pyodide runtime,
+         wheels and idnits3 bundle. Run `cargo xtask vendor fetch` first. Paths are
+         relative to this file; app-server serves the same URLs from the repository.
+         The nits worker (step 0026, js/nits) runs the same idnits3 bundle. -->
+    
+    
+    
+    
+    
+    
+    
+  <link rel="modulepreload" href="./editor-web-50cccb4e9f8a2730.js" crossorigin="anonymous" integrity="sha384-Me+nXrtX+8KFwpZeYDxJrLqxVihYfEMbd7XBm+Cm4JOP4oQLt/4TRvqgIZKVt0T4"><link rel="preload" href="./editor-web-dcb4f0fc0186a755_bg.wasm" crossorigin="anonymous" integrity="sha384-K/AMY0Q2NMC6jqOikn5+7kRIV9+B7MUANQpR5bP3tatkoKAuTZNk0LhRK1vLRnXl" as="fetch" type="application/wasm"></head>
+  <body></body>
+</html>

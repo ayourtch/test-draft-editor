@@ -1,0 +1,273 @@
+{
+  "info": {
+    "abi_version": "2026_0",
+    "arch": "wasm32",
+    "platform": "emscripten_5_0_3",
+    "python": "3.14.2"
+  },
+  "packages": {
+    "certifi": {
+      "depends": [],
+      "file_name": "certifi-2026.4.22-py3-none-any.whl",
+      "imports": [
+        "certifi"
+      ],
+      "install_dir": "site",
+      "name": "certifi",
+      "package_type": "package",
+      "sha256": "c2c0091986db798df5fd84582d289496f31244a898ec032b7015278c2d82c80c",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "2026.4.22"
+    },
+    "charset-normalizer": {
+      "depends": [],
+      "file_name": "charset_normalizer-3.4.7-py3-none-any.whl",
+      "imports": [
+        "charset_normalizer"
+      ],
+      "install_dir": "site",
+      "name": "charset-normalizer",
+      "package_type": "package",
+      "sha256": "9e437ef92fa51f06eedeb1ef092c0a887bd24fe0d40b1e900191117ce1653121",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "3.4.7"
+    },
+    "configargparse": {
+      "depends": [],
+      "file_name": "configargparse-1.9.0-py3-none-any.whl",
+      "imports": [
+        "configargparse"
+      ],
+      "install_dir": "site",
+      "name": "ConfigArgParse",
+      "sha256": "e4ecc54d821ca97c43e6152403f40e158aff79d809c3447746fa92b136dc1e31",
+      "version": "1.9.0"
+    },
+    "google-i18n-address": {
+      "depends": [
+        "requests"
+      ],
+      "file_name": "google_i18n_address-3.1.1-py2.py3-none-any.whl",
+      "imports": [],
+      "install_dir": "site",
+      "name": "google-i18n-address",
+      "sha256": "f66f4fd2b75d1cd371fc0a7678a1d656da4aa3b32932279e78dd6cae776fc23d",
+      "version": "3.1.1"
+    },
+    "idna": {
+      "depends": [],
+      "file_name": "idna-3.11-py3-none-any.whl",
+      "imports": [
+        "idna"
+      ],
+      "install_dir": "site",
+      "name": "idna",
+      "package_type": "package",
+      "sha256": "1619419bc899f07c7a608a12e8238e5e0bc15bb25fec90cfe20a86bb849ba0d8",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "3.11"
+    },
+    "intervaltree": {
+      "depends": [
+        "sortedcontainers"
+      ],
+      "file_name": "intervaltree-3.2.1-py2.py3-none-any.whl",
+      "imports": [],
+      "install_dir": "site",
+      "name": "intervaltree",
+      "sha256": "a8a8381bbd35d48ceebee932c77ffc988492d22fb1d27d0ba1d74a7694eb8f0b",
+      "version": "3.2.1"
+    },
+    "jinja2": {
+      "depends": [
+        "markupsafe"
+      ],
+      "file_name": "jinja2-3.1.6-py3-none-any.whl",
+      "imports": [
+        "jinja2"
+      ],
+      "install_dir": "site",
+      "name": "Jinja2",
+      "package_type": "package",
+      "sha256": "9330ec9cf2241fb8fc352928ea5e72016bf82de1d3d3b71ffea52a093a3ebab8",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "3.1.6"
+    },
+    "lxml": {
+      "depends": [],
+      "file_name": "lxml-6.1.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "imports": [
+        "lxml"
+      ],
+      "install_dir": "site",
+      "name": "lxml",
+      "package_type": "package",
+      "sha256": "6a0b98f57a538cb6af4868c3499efec2bb52f7ed59fed94b7fbf195d6e40281f",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "6.1.3"
+    },
+    "markupsafe": {
+      "depends": [],
+      "file_name": "markupsafe-3.0.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "imports": [
+        "markupsafe"
+      ],
+      "install_dir": "site",
+      "name": "MarkupSafe",
+      "package_type": "package",
+      "sha256": "b44c364dc0d19e4210ce68ab77833c2b5d608f78fe6966263add4fc1fa667d97",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "3.0.3"
+    },
+    "natsort": {
+      "depends": [],
+      "file_name": "natsort-8.4.0-py3-none-any.whl",
+      "imports": [
+        "natsort"
+      ],
+      "install_dir": "site",
+      "name": "natsort",
+      "sha256": "4732914fb471f56b5cce04d7bae6f164a592c7712e1c85f9ef585e197299521c",
+      "version": "8.4.0"
+    },
+    "platformdirs": {
+      "depends": [],
+      "file_name": "platformdirs-4.9.4-py3-none-any.whl",
+      "imports": [
+        "platformdirs"
+      ],
+      "install_dir": "site",
+      "name": "platformdirs",
+      "package_type": "package",
+      "sha256": "1de70d009fc1521dada980ea569604573b6dbf3bc2cd24bbf4a99a2e0da5ce1d",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "4.9.4"
+    },
+    "pycountry": {
+      "depends": [],
+      "file_name": "pycountry-26.2.16-py3-none-any.whl",
+      "imports": [],
+      "install_dir": "site",
+      "name": "pycountry",
+      "sha256": "115c4baf7cceaa30f59a4694d79483c9167dbce7a9de4d3d571c5f3ea77c305a",
+      "version": "26.2.16"
+    },
+    "pyyaml": {
+      "depends": [],
+      "file_name": "pyyaml-6.0.3-cp314-cp314-pyemscripten_2026_0_wasm32.whl",
+      "imports": [
+        "_yaml",
+        "yaml"
+      ],
+      "install_dir": "site",
+      "name": "pyyaml",
+      "package_type": "package",
+      "sha256": "a05d2a48c13ed72a8c60c73b30b753a25c3a591bb66c15428b7e95e69a9e806f",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "6.0.3"
+    },
+    "requests": {
+      "depends": [
+        "charset-normalizer",
+        "idna",
+        "urllib3",
+        "certifi"
+      ],
+      "file_name": "requests-2.33.1-py3-none-any.whl",
+      "imports": [
+        "requests"
+      ],
+      "install_dir": "site",
+      "name": "requests",
+      "package_type": "package",
+      "sha256": "6d62c51c4e7707386bfc2ef54845c16cdaeb99606c064357cccfe4d621285175",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "2.33.1"
+    },
+    "rfc2html": {
+      "depends": [],
+      "file_name": "../rfc2html/2.1.0/rfc2html-2.1.0-py3-none-any.whl",
+      "imports": [
+        "rfc2html"
+      ],
+      "install_dir": "site",
+      "name": "rfc2html",
+      "sha256": "95e6bcb43ca43fb85855569d7e15b772aa45b17dc785f6c6ac2ac70a05bbf7dd",
+      "version": "2.1.0"
+    },
+    "sortedcontainers": {
+      "depends": [],
+      "file_name": "sortedcontainers-2.4.0-py2.py3-none-any.whl",
+      "imports": [
+        "sortedcontainers"
+      ],
+      "install_dir": "site",
+      "name": "sortedcontainers",
+      "package_type": "package",
+      "sha256": "48fd2a467d25069008ff7195db0ed1767d9bad14d1d45e54cfbe95d26ff3b596",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "2.4.0"
+    },
+    "urllib3": {
+      "depends": [],
+      "file_name": "urllib3-2.6.3-py3-none-any.whl",
+      "imports": [
+        "urllib3"
+      ],
+      "install_dir": "site",
+      "name": "urllib3",
+      "package_type": "package",
+      "sha256": "86b7c1af060597b115bcde5e36798039ca50b221afe14aa03d3437ac09b02a75",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "2.6.3"
+    },
+    "wcwidth": {
+      "depends": [],
+      "file_name": "wcwidth-0.6.0-py3-none-any.whl",
+      "imports": [
+        "wcwidth"
+      ],
+      "install_dir": "site",
+      "name": "wcwidth",
+      "package_type": "package",
+      "sha256": "ae04c5081c1920e605e9d8b7dffc368a35d8de9b698468819d52e4994a883b76",
+      "tool": {},
+      "unvendored_tests": false,
+      "version": "0.6.0"
+    },
+    "xml2rfc": {
+      "depends": [
+        "configargparse",
+        "google-i18n-address",
+        "intervaltree",
+        "jinja2",
+        "lxml",
+        "natsort",
+        "platformdirs",
+        "pycountry",
+        "pyyaml",
+        "requests",
+        "wcwidth"
+      ],
+      "file_name": "../xml2rfc/3.35.0/xml2rfc-3.35.0-py3-none-any.whl",
+      "imports": [
+        "xml2rfc"
+      ],
+      "install_dir": "site",
+      "name": "xml2rfc",
+      "sha256": "edc214592380463f4ac69fdaaf9aba99750bb9f6c6fcff2149de4bb59568c3c8",
+      "version": "3.35.0"
+    }
+  }
+}
